@@ -4,7 +4,7 @@ motor:
   # dancew allows zero-delay steps. Other modes require a positive delay.
   mode: dancew
   port: /dev/ttyUSB-U2D2
-  baud_rate: 4500000  # bps
+  baud_rate: 1000000  # bps
   # A single high-rate loop performs writes and every 10th-cycle status read.
   write_hz: 100
   read_hz: 10
