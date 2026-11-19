@@ -1,35 +1,13 @@
-# Humanoid-Motion-Teacher
+## Humanoid-Motion-teacher
 
-## build essential
+## 깃허브 링크
 
-```
-sudo apt-get install libqwt-qt5-dev
-sudo apt-get install ros-humble-dynamixel-sdk
-```
+https://github.com/ROBIT-KOR-teamHumanoid/Humanoid-Motion-Teacher
 
-## how to build
+## 실행 방법
 
 ```
-cd ../Humanoid-Motion-Teacher
-mkdir build
-cd build
-cmake ..
-make
-./Humanoid-Motion-Teacher
+cd ~/projects/Humanoid-Motion-Teacher
+source /opt/ros/jazzy/setup.bash
+./build/Humanoid_Motion_Teacher
 ```
-
-## how to use
-
-pdf는 motion-teacher와 motion-operator 사용 tip이다.
-
-ppt는 ui 관련 사용법이다.
-
-
-[Motion-TeacherMotion-Operator.pdf](https://github.com/user-attachments/files/23744035/Motion-TeacherMotion-Operator.pdf)
-
-[Robit_Humanoid_Motion_Teacher_v2.pptx](https://github.com/user-attachments/files/18498512/Robit_Humanoid_Motion_Teacher_v2.pptx)
-현재 --> [Robit_Humanoid_Motion_Teacher_v3.pptx](https://github.com/user-attachments/files/31286715/Robit_Humanoid_Motion_Teacher_v3.pptx)
-
-
-![허들 모션 예시1](motion_gif/hurdle1.gif)
-![허들 모션 예시2](motion_gif/hurdle2.gif)
